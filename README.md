@@ -1,5 +1,5 @@
 # SolutionStepParser
-A command line solver that parses and executes user-defined linear and nonlinear solution steps, that is 'equations' and 'systems of equations', returning the values of all outputted variables as a solution. It was created to form the backend of a GUI-based solution program.
+A command line solver that parses and executes user-defined solution steps, that is 'equations' and 'systems of equations', returning the values of all outputted variables as a solution. It was created to form the backend of a GUI-based solution program.
 
 INPUT
 A set of files each containing a set of equations, a file defining input variables, and an optional dictionary file giving alternate names to variables for clarification. Equations that are not within a system together are treated as their own solution step (held within an EquationStep class). Systems of equations are grouped within their own file, and a custom class is created that implements the ISolutionStep interface and solves the system. 
